@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  id="apple" class="orange grape" action="#">
+        <!-- readonly 주소(서버)로 보내기가 가능한것
+            disabled 는 보내기가 불가능 -->
+        <input 
+            title="닉네임"
+            style="width: 200px;"
+            type="text" name ="nick" value="홍길동" disabled>
+
+        <br>
+
+        <select class="orange" name="coffe">
+            <option value="아메리카노">Americano</option>
+            <option value="카페라떼" selected>caffe Latte</option>
+            <option value="카푸치노" disabled>Cappuccino</option>
+            <!-- value값을 주면 버튼을 눌렀을때 한국어로 넘어간다. -->
+        </select>
+
+        <button>확인</button>
+
+    </form>
+</body>
+</html>
